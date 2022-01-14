@@ -261,6 +261,7 @@ li {
 .about-head {
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 650px) {
@@ -285,6 +286,70 @@ li {
   .about-head {
     font-size: 40px;
     margin-top: 40px;
+  }
+}
+
+.portfolio {
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.port-msg {
+  position: absolute;
+  bottom: 0;
+  top: -100px;
+  width: 660px;
+  background-color: #b9b9b9;
+  right: 0;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.port-msg-head {
+  font-size: 50px;
+  margin: 140px 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.port-msg-para {
+  letter-spacing: 1px;
+  margin: 20px 50px;
+  line-height: 1.7;
+}
+
+.port-msg-button {
+  margin: 50px 50px;
+  padding: 10px 20px;
+  width: 120px;
+  text-align: center;
+  border: solid 1px black;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.port-msg-button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .portfolio {
+    height: 700px;
+  }
+  .port-msg {
+    width: 360px;
+  }
+  .port-msg-head {
+    font-size: 40px;
+  }
+  .port-msg-para {
+    margin: 20px 50px;
+  }
+  .port-msg-button {
+    width: 120px;
   }
 }
 /*# sourceMappingURL=nav.css.map */
