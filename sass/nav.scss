@@ -301,3 +301,39 @@ li
     font-size: 40px;
     font-weight: bold;
 }
+
+@media(max-width: 650px)
+{
+    .about
+    {
+        padding: 50px;
+    }
+    
+    .about-img
+    {
+        height: 150px;
+        width: 150px;
+        border-radius: 200px;
+    }
+    
+    .about-para
+    {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+    
+        &::before
+        {
+            content: '';
+            height: 210px;
+            width: 10px;
+        }
+    }
+    
+    .about-head
+    {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    
+}
