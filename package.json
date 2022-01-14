@@ -1,0 +1,22 @@
+{
+  "name": "true-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitidk/webkers-alive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitidk/webkers-alive/issues"
+  },
+  "homepage": "https://github.com/harshitidk/webkers-alive#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
